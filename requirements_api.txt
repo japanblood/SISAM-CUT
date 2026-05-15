@@ -1,0 +1,21 @@
+# ==========================================
+# DEPENDENCIAS PARA LA API DE SISAM-CUT
+# ==========================================
+
+# 1. El motor principal de nuestra API (rápido y moderno)
+fastapi
+
+# 2. El servidor que hará funcionar la API en tu computadora
+uvicorn
+
+# 3. El puente de comunicación con la base de datos MariaDB
+mysql-connector-python
+
+# 4. El encargado de validar que los datos (ej. contraseñas, correos) sean correctos
+pydantic
+
+# 5. Herramienta necesaria para poder recibir archivos (como las fotos de evidencia)
+python-multipart
+
+# 6. Para leer el archivo .env donde guardaremos tu contraseña "root" de forma segura
+python-dotenv
